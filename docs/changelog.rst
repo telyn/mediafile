@@ -10,6 +10,8 @@ Upcoming
     the codebase with ``ruff``.
 - Moved changelog into its own file, ``changelog.rst``. Also added github workflow
     for automatic changelog reminders.
+- Added TSO2 tag to albumartist_sort, matching how Picard >= 1.2, iTunes and
+    Swinsian interpret tags.
 
 v0.13.0
 '''''''

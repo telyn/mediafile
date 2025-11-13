@@ -1949,6 +1949,7 @@ class MediaFile(object):
         ASFStorageStyle("WM/ArtistSortOrder"),
     )
     albumartist_sort = MediaField(
+        MP3StorageStyle("TSO2"),
         MP3DescStorageStyle("ALBUMARTISTSORT"),
         MP4StorageStyle("soaa"),
         StorageStyle("ALBUMARTISTSORT"),
